@@ -9,6 +9,18 @@ li {
   list-style: none;
 }
 
+p {
+  line-height: 25px;
+  font-size: 14px;
+}
+
+h3 {
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  margin-top: 60px;
+}
+
 header {
   padding: 24px 24px 0;
 }
@@ -30,7 +42,7 @@ h2 a {
   color: #606368;
 }
 
-nav {
+nav ul {
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
@@ -54,4 +66,31 @@ li .active {
 
 main {
   border-top: 1px solid #c9ccd4;
+  padding: 20px 0;
+}
+
+.container {
+  width: 978px;
+  margin: auto;
+}
+
+footer {
+  background-color: #F5F5F5;
+}
+
+.footer-container {
+  width: 978px;
+  margin: auto;
+  height: 45px;
+  display: flex;
+  align-items: center;
+}
+.footer-container ul {
+  display: flex;
+}
+.footer-container ul li a {
+  font-size: 11px;
+  text-decoration: none;
+  color: #606368;
+  margin-right: 10px;
 }
