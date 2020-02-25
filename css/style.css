@@ -23,6 +23,10 @@ h3 {
 
 header {
   padding: 24px 24px 0;
+  position: fixed;
+  background-color: #FFF;
+  width: 100%;
+  border-bottom: 1px solid #d8d8d8;
 }
 
 .logo {
@@ -65,8 +69,8 @@ li .active {
 }
 
 main {
-  border-top: 1px solid #c9ccd4;
-  padding: 20px 0;
+  padding: 100px 0;
+  width: 100%;
 }
 
 .container {
